@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(255, 253, 253);
+}
+.navbar-collapse{
+  color: rgb(95, 0, 0);
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.bg-light{
+  background-color:rgb(255, 255, 255) !important;
+}
+

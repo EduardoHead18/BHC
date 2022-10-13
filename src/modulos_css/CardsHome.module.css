@@ -1,0 +1,30 @@
+
+.container1{
+    background-color: #31827c;
+}
+
+.container2{
+    background-color:#fc8a80;
+
+}
+.containerImage1{
+
+    width: 40%;
+
+}
+.containerImage2{
+}
+img{
+    width: 30%;
+    height: 30%;
+}
+
+@media (max-width: 768px){
+    .containerImage2{
+        position: relative;
+        left: 0%;
+        
+    }
+
+
+}
