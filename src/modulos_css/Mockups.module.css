@@ -1,0 +1,13 @@
+.container_img{
+    width: 70%;
+    height: 15%;  
+}
+.container_img h3{
+    background-color: rgba(0, 0, 0, 0.342);
+    color: #fff;
+    padding: 2vh;
+    border-radius: 2vh;
+}
+.Carousel{
+    color:#000 !important;
+}

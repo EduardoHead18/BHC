@@ -1,98 +1,202 @@
+.containerGlobal {
+  overflow: auto;
+}
+/*estilos constantes*/
+h1 {
+  color: #fff;
+  font-size: 55px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+  display: none;
+  color: #fff;
+  font-size: 30px;
+
+}
+ p {
+  color: #fff;
+  font-size: 30px;
+}
+/*comienzan estilos por cada container*/
 .container1 {
-    background-color: #31827c;
-    width: 100%;
-    height: 314px;
-    padding: 5vh;
+  background-color: #31827c;
+  width: 100%;
+  height: 45vh;
+  padding: 5vh;
+  overflow: hidden;
+  
 }
 
-.container1 img { 
-    width: 40vh;
-    height: 40vh;
-    position: relative;
-    left: 70%;
-    bottom: 31vh;
+.container1 img {
+  width: 40vh;
+  height: 40vh;
+  position: relative;
+  float:right;
+  bottom: 3vh;
 }
-.Texto{
-    position: relative;
-    left: 13vh;    
-}
-h1{
-    color: #fff;
-    font-size: 55px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-}
-p{
-    color: #fff;
-    font-size: 30px;
-}
+
 
 .container2 {
-    background-color: #fc8a80;
-    width: 100%;
+  background-color: #fc8a80;
+  width: 100%;
+  width: 100%;
+  height: 45vh;
+  overflow: hidden;
 }
-.container2 p{
-    position: relative;
-    left: 40%;
-    bottom: 17vh;
-}
-.ver_mas_btn{
-    background-color: rgba(201, 27, 27, 0.795);
-    border:11px;
-    color:white
 
+.container2 p {
+  position: relative;
+  float: right;
+  bottom: 30vh;
+  margin: 4%,4%,4%,4%;
+}
+
+.ver_mas_btn {
+  background-color: rgba(201, 27, 27, 0.795);
+  border: 11px;
+  color: white
 }
 
 .container2 img {
-    position: relative;
-    top:15vh;
-    clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 75% 100%, 0% 100%);
-    width: 70vh;
-    height: 40vh;
+  float: left;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 75% 100%, 0% 100%);
+  width: 70vh;
+  height: 40vh;
 }
 
 .container3 {
-    background-color: #95C68F;
-    width: 100%;
+  background-color: #95C68F;
+  width: 100%;
+  padding: 5vh;
 }
-.container3 img { 
-    width: 70vh;
-    height: 40vh;
-    position: relative;
-    left: 50%;
-    bottom: 9vh;
-    clip-path: polygon(0 100%, 43% 0, 100% 0, 100% 99%, 0% 100%);
+
+.container3 img {
+  width: 70vh;
+  height: 40vh;
+  position: relative;
+  left: 50%;
+  bottom: 9vh;
+  overflow: hidden;
+
+  clip-path: polygon(0 100%, 43% 0, 100% 0, 100% 99%, 0% 100%);
 }
+
+/*media querys*/
 
 @media (max-width: 800px) {
-    .container1 {
-        width: 100%;
-        height: 314px;
-        padding: 5vh;
-    }
-    .container1 img {
-        width: 20vh;
-        height: 20vh;
-        position: relative;
-        left: 10vh;  
-        bottom: 16vh;  
-    }
-    .Texto {
-        position: relative;
-        top: 20vh;    
-    }
-    h1{
-        font-size: 24px;
-    }
-    p{
-        font-size: 15px;
-    }
 
-}
+  /*primer container*/
+  .container1 {
+    width: 100%;
+    height: 31%;
+    padding: 7vh;
+  }
 
-.link{
+  .container1 img {
+    width: 20vh;
+    height: 20vh;
+    position: relative;
+    right: 21%;
+    margin: auto;
+    bottom: 3vh;
+  }
+  .text1{
+    display: none;
+    position: relative;
+    top: 10vh;
+    left: 21%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  .text1 h1{
+    position: relative;
+    bottom:0%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .text1 p{
+    margin: 0px,0px,0px,0px;
+    position: relative;
+    bottom:30%;
+    font-size: 15px;  
+  }
+  h2{
+    display: block;
+    margin: 0px,0px,0px,0px;
+    position: relative;
+    bottom:30%;
+    font-size: 15px;  
+    color: red;
+
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  /*segundo container*/
+
+  .container2 p {
+    position: relative;
+    left: 27vh;
+    text-align: center;
+    
+  }
+
+  .ver_mas_btn {
+    background-color: rgba(201, 27, 27, 0.795);
+    border: 11px;
+    color: white
+  }
+
+  .container2 img {
+    position: relative;
+    top: 1vh;
+    left: 21%;
+
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%);
+    width: 25vh;
+    height: 15vh;
+  }
+  /*tercer container*/
+  .container3 p {
+    position: relative;
+    text-align: center;
+    
+  }
+
+  .ver_mas_btn {
+    background-color: rgba(201, 27, 27, 0.795);
+    border: 11px;
     color: #fff;
-    text-decoration: none;
+    position: relative;
+    bottom: 5vh;
+  }
+
+  .container3 img {
+    position: relative;
+    bottom: 5vh;
+    left: 21%;
+
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%);
+    width: 25vh;
+    height: 15vh;
+  }
+
+
 }
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*Animacion de botones*/
 
 
 .btn34,
@@ -104,6 +208,7 @@ p{
   border: 0 solid;
   box-sizing: border-box;
 }
+
 .btn34 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
@@ -123,22 +228,28 @@ p{
   padding: 0;
   text-transform: uppercase;
   position: relative;
-  left: 100vh;
+  left: 80vh;
+  float: left;
   bottom: 10vh;
 }
+
 .btn34:disabled {
   cursor: default;
 }
+
 .btn34:-moz-focusring {
   outline: auto;
 }
+
 .btn34 svg {
   display: block;
   vertical-align: middle;
 }
+
 .btn34 [hidden] {
   display: none;
 }
+
 .btn34 {
   border-radius: 99rem;
   border-width: 2px;
@@ -146,13 +257,16 @@ p{
   padding: 0.8rem 3rem;
   position: relative;
 }
+
 .btn34:hover {
   transform: scale(1.1);
 }
+
 .btn34 span {
   font-weight: 900;
   mix-blend-mode: difference;
 }
+
 .btn34:before {
   aspect-ratio: 1;
   background: #fff;
@@ -165,6 +279,7 @@ p{
   transition: width 0.2s;
   width: 0;
 }
+
 .btn34:hover:before {
   width: 100%;
 }
@@ -181,6 +296,7 @@ p{
   border: 0 solid;
   box-sizing: border-box;
 }
+
 .btn35 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
@@ -204,19 +320,24 @@ p{
 
   bottom: 10vh;
 }
+
 .btn35:disabled {
   cursor: default;
 }
-.btn34:-moz-focusring {
+
+.btn35:-moz-focusring {
   outline: auto;
 }
+
 .btn35 svg {
   display: block;
   vertical-align: middle;
 }
+
 .btn35 [hidden] {
   display: none;
 }
+
 .btn35 {
   border-radius: 99rem;
   border-width: 2px;
@@ -224,13 +345,16 @@ p{
   padding: 0.8rem 3rem;
   position: relative;
 }
+
 .btn35:hover {
   transform: scale(1.1);
 }
+
 .btn35 span {
   font-weight: 900;
   mix-blend-mode: difference;
 }
+
 .btn35:before {
   aspect-ratio: 1;
   background: #fff;
@@ -243,7 +367,7 @@ p{
   transition: width 0.2s;
   width: 0;
 }
+
 .btn35:hover:before {
   width: 100%;
 }
-

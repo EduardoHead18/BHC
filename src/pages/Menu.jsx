@@ -1,7 +1,13 @@
 import React from 'react'
+import { CardProducts } from '../components/Card'
+
+import { FooterComponent } from '../components/FooterComponent'
 
 export const Menu = () => {
   return (
-    <div>Menu</div>
+    <>
+      <CardProducts></CardProducts>
+      <FooterComponent></FooterComponent>
+    </>
   )
 }

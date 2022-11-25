@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "nombre": "Juan Antonio Guzmán Hernández",
+    "contenido": "Estudiante de Ingeniería en Desarrollo y Gestión de Software en la Universidad Tecnológica de la Selva Me gusta ver películas, escuchar música y practicar deportes. Soy una persona activa cuyo interés es salír de la rutina. Mis metas en la vida son terminar la carrera y graduarme de Ingeniería en Desarrollo y Gestión de Software, al igual que aplicar las TI en el ámbito de ganadería.",
+    "foto": "Juan.png"
+  },
+  {
+    "id": "2",
+    "nombre": "Carlos Eduardo Hernández Morales",
+    "contenido": "Estudiante de Ingeniería en Desarrollo y Gestión de Software en la Universidad Tecnológica de la Selva. Mis  pasatiempos favoritos son ver películas, series y dibujar. Soy una persona autodidacta y totalmente autónoma. Mis metas en la vida son terminar y graduarme de la Ingeniería en Desarrollo y Gestión de Software y ejercer su profesión en una empresa extranjera.",
+    "foto": "Eduardo.png"
+  },
+  {
+    "id": "3",
+    "nombre": "Nelson Mayo Méndez",
+    "contenido": "Estudiante de Ingeniería en Desarrollo y Gestión de Software en la universidad tecnológica de la selva. Me gusta practicar deportes, hacer ejercicio, y realizar grafittis. Mis metas en la vida son estudiar una maestría en sistemas computacionales y ejercer su profesíon.",
+    "foto": "Nelson.png"
+  },
+  {
+    "id": "4",
+    "nombre": "Julián Peñaloza Zárate",
+    "contenido": "Estudiante de la carrera Ingeniería en Desarrollo y Gestión de Software en la Universidad Tecnológica de la Selva. Me gusta Leer, ver series y escribir cuentos cortos e historias. Soy una persona positiva que sin importar las circunstancias opto por ver lo bueno y omito lo malo. Mis metas en la vida son terminar y graduarme de la Ingeniería en Desarrollo y Gestión de Software , realizar una maestría en seguridad informática y volverme informático forense.",
+    "foto": "Julian.png"
+  },
+  {
+    "id": "5",
+    "nombre": "Víctor Manuel González López",
+    "contenido": "Estudiante de la Ingeniería en Desarrollo y Gestión de Software en la Universidad Tecnológica de la Selva. Me gusta ver películas, realizar deportes y jugar videojuegos. Soy una persona autónoma y segura de si mismo. Mis metas en la vida son titularme de la Ingeniería en Desarrollo y Gestión de Software y viajar a Italia.",
+    "foto": "Victor.png"
+  },
+  {
+    "id": "6",
+    "nombre": "Néstor Adrián Martínez Jiménez ",
+    "contenido": "Estudiante de la ingeniería en desarrollo y gestión de software en la Universidad Tecnológica de la Selva. Me gusta viajar, realizar cabalgatas a caballo y la catación de café. Soy una persona positiva con un gran interés en aprender cosas nuevas. Mi meta en la vida es desarrollar una finca cafetera haciendo uso eficiente de las TI en la gestión, producción y comercialización de los productos y servicios, al igual que usar las TI para la investigación e innovación en el área de la caficultura.",
+    "foto": "Nestor.png"
+  }
+]
