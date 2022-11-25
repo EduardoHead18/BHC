@@ -1,11 +1,11 @@
 import React from 'react'
-import { CardsHome } from '../components/CardsHome'
+import { ContainerHome } from '../components/ContainerHome'
 
 export const Home = () => {
   return (
     <>
     <div className=''>
-      <CardsHome></CardsHome>
+      <ContainerHome></ContainerHome>
     </div>
     </>
 
