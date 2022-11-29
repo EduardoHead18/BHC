@@ -1,0 +1,28 @@
+{
+    "frappes": [
+        {
+            "id":1,
+            "name":"Frappe",
+            "img":"desayuno.jpg",
+            "price" :50
+        },
+        {
+            "id":2,
+            "name":"Frappe",
+            "img":"desayuno.jpg",
+            "price" :50
+        },
+        {
+            "id":3,
+            "name":"Frapape",
+            "img":"desayuno.jpg",
+            "price" :50
+        },
+        {
+            "id":4,
+            "name":"Frappe",
+            "img":"desayuno.jpg",
+            "price" :50
+        }
+    ]
+}

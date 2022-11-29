@@ -1,0 +1,16 @@
+.title  {
+    background-color: #31827c;
+    padding: 2%;
+    border-radius: 0% 10% 10% 0%;
+    width: 30%;
+    font-size: 25px;
+    color: #fff;
+}
+@media (max-width: 600px){
+    .title{
+        width: 100%;
+        border-radius: 0%;
+        height: 20%;
+        text-align: center;
+    }
+}

@@ -12,10 +12,10 @@ export const NosotrosComponent = () => {
                         <h1>{data.nombre}</h1>
                         <p>{data.contenido}</p>
                         {console.log(data.foto)}
-                        <img src = {require(`../assets/fts/${data.foto}`)}  alt={data.nombre} />
+                        <img src={require(`../assets/fts/${data.foto}`)} alt={data.nombre} />
                     </div>
                 </div>
-                )}
+            )}
         </>
     );
 }
