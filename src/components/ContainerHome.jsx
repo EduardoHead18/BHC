@@ -14,10 +14,9 @@ export const ContainerHome = () => {
           <img src={imgHome1} alt="" />
           <div className={styles.text1}>
             <h1>Frase del dia!</h1>
-            <p>La vida es demasiado corta </p>
-            <p>para tomar cafés malos.</p>
-            <h2>La vida es demasiado corta para para tomar</h2>
-            <h2>cafés malos</h2>
+            <p>La vida es demasiado corta para tomar</p>
+            <p>cafés malos.</p>
+            <h2>La vida es demasiado corta para para tomar cafés malos</h2>
           </div>
 
         </div>
@@ -42,9 +41,11 @@ export const ContainerHome = () => {
           <h1>Visítanos</h1>
 
           <button className={styles.btn35}>
-            <Link className={styles.link} to='/menu'>
+            
+            <a className={styles.link} href="https://goo.gl/maps/QpVmQUaFrpjM5nFa8" target="_blank" >
               <span>Ubicación</span>
-            </Link>
+            </a>
+
           </button>
           <img src={imgHome3} alt="" />
         </div>

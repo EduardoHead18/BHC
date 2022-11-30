@@ -1,25 +1,26 @@
-.developer1 {
+.contendor{
     overflow: hidden;
     height: auto;
     width: 100%;
-}
-.img1{
-    width: 25vh;
-    height: 25vh;
-    border-radius: 100%;
-    background-color: #52E396;
-    position: relative;
-    bottom: 20vh;
+    height: auto;
 }
 
-.developer1 h1{
-    color:#000;
+.name{
+    width: 100%;
+    height: auto;
+}
+ .name h1 {    color:#000;
     font-size: 30px;
     font-family: 'Arial'; 
     position: relative;
     left: 28vh;
 }
-.text{
+.contenido{
+    width: auto;
+    height: auto;
+}
+
+.contenido p {
     text-align: justify;
     opacity: 0.8;
     width:100vh;
@@ -28,14 +29,25 @@
     font-family: 'Arial'; 
     position: relative;
     left: 28vh;
-    top: 5vh;
+    bottom: 21vh;
+}
+.image{
+    width: 100%;
+    height: auto;
 }
 
+.image img {
+    width: 25vh;
+    height: 25vh;
+    border-radius: 100%;
+    background-color: #52E396;
+    position: relative;
+}
 
 /*Media Querys*/
 
 @media (max-width: 600px){
-    .developer1{
+    .contenedor{
         background-color: rgb(0, 23, 228);
         font-size: 12px;
         width: 100%;
@@ -43,15 +55,17 @@
         padding: 2vh;
 
     }
-     .img1{
+     .image img{
         border-radius: 100%;
         position: relative;
         left:20%;
-        top: -40vh;
+        top: 0vh;
         bottom: 30vh;
         overflow: auto;
+        display: flex;
+        justify-content: center;
     }
-    .developer1 h1{
+    .name h1{
         color:#000;
         font-size: 30px;
         font-family: 'Arial'; 
@@ -59,8 +73,8 @@
         left: 3%;
     }
 
-     .text{    
-        color:rgb(255, 255, 255);
+     .contenido p{    
+        color:rgb(0, 0, 0);
         font-size: 18px;
         font-family: 'Arial'; 
         position: relative;
@@ -69,7 +83,7 @@
         width:100%;
         position: relative;
         left: 0vh;
-        top: 25vh;
+ 
      
     }
 

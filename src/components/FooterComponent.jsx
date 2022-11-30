@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export const FooterComponent = () => {
     return (
@@ -35,9 +36,12 @@ export const FooterComponent = () => {
                                 <h6 className="text-uppercase fw-bold mb-4">
                                     <i className="fas fa-gem me-3"></i>Black Honey Café
                                 </h6>
-                                <p>
-                                    Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                    dolor sit amet, consectetur adipisicing elit.
+                                <p className='text-secondary text-justify fs-6'>
+                                    Black Honey Café es una cafetería que se encuentra ubicado en Guadalajara Jalisco, México.
+                                </p>
+
+                                <p className='text-secondary text-justify fs-6'>
+                                    Av. Plutarco Elias Calles 99, Guadalajara, Jalisco, 44810
                                 </p>
                             </div>
 
@@ -45,29 +49,32 @@ export const FooterComponent = () => {
                                 <h6 className="text-uppercase fw-bold mb-4">
                                     Productos
                                 </h6>
-                                <p>
-                                    <a href="#!" className="text-reset">Angular</a>
-                                </p>
-                                <p>
-                                    <a href="#!" className="text-reset">React</a>
-                                </p>
-                                <p>
-                                    <a href="#!" className="text-reset">Vue</a>
-                                </p>
-                                <p>
-                                    <a href="#!" className="text-reset">Laravel</a>
-                                </p>
+                                <p></p>
+                                <Link className="nav-item nav-link  text-center" to="/">Inicio</Link>
+                                <br />
+                                <Link className="nav-item nav-link text-center" to="/menu">Menú</Link>
+                                <br />
+                                <Link className="nav-item nav-link text-center" to="/acerca">Nosotros</Link>
+
                             </div>
 
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                                 <h6 className="text-uppercase fw-bold mb-4">Contacto</h6>
-                                <p><i className="fas fa-home me-3"></i> New York, NY 10012, US</p>
-                                <p>
-                                    <i className="fas fa-envelope me-3"></i>
-                                    info@example.com
-                                </p>
-                                <p><i className="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                                <p><i className="fas fa-print me-3"></i> + 01 234 567 89</p>
+
+                                {/** enlaces */}
+
+                                <a href="https://instagram.com/blackhoney_cafe?igshid=NTdlMDg3MTY=" className="text-decoration-none text-secondary" target="_blank">
+                                <i class="bi bi-instagram"></i>
+                                  Instagram
+                                </a>
+
+                                <br /><br />
+
+                                <a href="https://www.facebook.com/CafeBlackHoney?mibextid=ZbWKwL" className="text-decoration-none text-secondary" target="_blank">
+                                <i class="bi bi-facebook"></i>
+                                  Facebook
+                                </a>
+
                             </div>
                         </div>
                     </div>
@@ -77,8 +84,6 @@ export const FooterComponent = () => {
                     © 2021 Copyright: Black Honey Café
                 </div>
             </footer>
-
-
         </>
     );
 }

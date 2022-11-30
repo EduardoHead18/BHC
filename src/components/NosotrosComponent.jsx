@@ -8,12 +8,18 @@ export const NosotrosComponent = () => {
             {nosotrosData.map(data =>
                 <div className="container" key={data.id}>
                     <hr />
-                    <div className={styles.developer1}>
-                        <h1>{data.nombre}</h1>
-                        <div className={styles.text}>{data.contenido}</div>
-                        
-                        {console.log(data.foto)}
-                        <img className={styles.img1} src={require(`../assets/fts/${data.foto}`)} alt={data.nombre} />
+                    <div className={styles.contendor}>
+                        <br />
+                        <div className={styles.name}>
+                            <h1>{data.nombre}</h1>
+                        </div>
+                        <div className={styles.image}>
+                            <img className={styles.img1} src={require(`../assets/fts/${data.foto}`)} alt={data.nombre} />
+                        </div>
+                        <br />
+                        <div className={styles.contenido}>
+                            <p>{data.contenido}</p>
+                        </div>
                     </div>
                 </div>
             )}
