@@ -5,6 +5,7 @@ import { Nosotros } from "./pages/Nosotros";
 import { Home } from "./pages/Home";
 import { Menu } from "./pages/Menu";
 import { Mockups } from "./pages/Mockups";
+import { GridHomeComponent} from "./components/GridHomeComponent";
 
 
 export function App() {
@@ -17,6 +18,7 @@ export function App() {
                     <Route path='/menu' element={<Menu/>}></Route>
                     <Route path='/acerca' element={<Nosotros></Nosotros>}></Route>
                     <Route path='/mockups' element={<Mockups/>}></Route>
+                    <Route path='/home2' element={<GridHomeComponent></GridHomeComponent>}></Route>
                     <Route path="*" element={<div>Error 404</div>}></Route>
                     </Route>
                 </Routes>

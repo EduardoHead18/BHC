@@ -49,12 +49,10 @@ export const FooterComponent = () => {
                                 <h6 className="text-uppercase fw-bold mb-4">
                                     Productos
                                 </h6>
-                                <p></p>
-                                <Link className="nav-item nav-link  text-center" to="/">Inicio</Link>
-                                <br />
-                                <Link className="nav-item nav-link text-center" to="/menu">Menú</Link>
-                                <br />
-                                <Link className="nav-item nav-link text-center" to="/acerca">Nosotros</Link>
+                                <p className=" text-secondary"><Link className="text-secondary text-decoration-none fs-6" to="/">Inicio</Link></p>
+                                <p className=" text-secondary"><Link className="text-secondary text-decoration-none fs-6" to="/menu">Menu</Link></p>
+                                <p className=" text-secondary"><Link className="text-secondary text-decoration-none fs-6" to="/acerca">Nosotros</Link></p>
+                                
 
                             </div>
 

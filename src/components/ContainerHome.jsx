@@ -16,7 +16,7 @@ export const ContainerHome = () => {
             <h1>Frase del dia!</h1>
             <p>La vida es demasiado corta para tomar</p>
             <p>cafés malos.</p>
-            <h2>La vida es demasiado corta para para tomar cafés malos</h2>
+            <h2>La vida es demasiado corta para tomar cafés malos</h2>
           </div>
 
         </div>
